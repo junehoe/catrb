@@ -11,37 +11,6 @@ class Catrb
     else
       puts "catrb: #{ARGV[0]}: No such file or directory"
     end
-    #if File.exist?(ARGV[0])
-    #  File.open(ARGV[0]).each do |line|
-    #    puts line
-    #  end
-    #else
-    #  puts "catrb: #{ARGV[0]}: No such file or directory"
-    #end
-  end
-
-  def directory_exists?(directory)
-    File.directory?(directory)
-  end
-
-  def file_exists?(file)
-    File.exist?(file)
-  end
-
-  def directory_exists?(directory)
-    File.directory?(directory)
-  end
-
-  def file_exists?(file)
-    File.exist?(file)
-  end
-
-  def directory_exists?(directory)
-    File.directory?(directory)
-  end
-
-  def file_exists?(file)
-    File.exist?(file)
   end
 
   def directory_exists?(directory)
